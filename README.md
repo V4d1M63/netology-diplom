@@ -145,9 +145,9 @@ kube-system   nodelocaldns-wl87w                         1/1     Running   0    
 
 #### Подготовил приложение.
 
-[index.html](https://github.com/Firewal7/netology-diplom/blob/main/applications/index.html)
+[index.html](https://github.com/V4d1M63/netology-diplom/blob/main/applications/index.html)
 
-[Dockerfile](https://github.com/Firewal7/netology-diplom/blob/main/applications/Dockerfile)
+[Dockerfile](https://github.com/V4d1M63/netology-diplom/blob/main/applications/Dockerfile)
 
 #### Соберём образ командой: docker build -t bbb8c2e28d7d/applications:1.0 .
 
@@ -181,7 +181,7 @@ CONTAINER ID   IMAGE                           COMMAND                  CREATED 
 a4af36b6e9c8   bbb8c2e28d7d/applications:1.0   "/docker-entrypoint.…"   11 seconds ago   Up 9 seconds   0.0.0.0:8080->80/tcp   elated_blackburn
 ```
 
-![Ссылка 11](https://github.com/Firewal7/netology-diplom/blob/main/images/11.brauzer.jpg)
+![7](https://github.com/user-attachments/assets/1354b4d2-a39e-4129-acd2-a64674268dfe)
 
 #### Загружаем в Dockerhub: docker push bbb8c2e28d7d/applications:1.0
 
@@ -198,7 +198,7 @@ fd95118eade9: Mounted from library/nginx
 1.0: digest: sha256:1cd8e8edfc6b004e9e276c43fdfc75c93815e12cb7bdec67da565a1a1bf3f316 size: 1777
 ```
 
-![Ссылка 13](https://github.com/Firewal7/netology-diplom/blob/main/images/13.dockerhub.jpg)
+![8](https://github.com/user-attachments/assets/c05de34c-1e25-4c74-9d7d-75c4c68b1b2d)
 
 ### Подготовка cистемы мониторинга и деплой приложения
 
