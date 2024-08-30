@@ -91,15 +91,12 @@
 git clone https://github.com/kubernetes-sigs/kubespray.git
 ```
 
-При создании [инфраструктуры](https://github.com/Firewal7/netology-diplom/blob/main/terraform/inventory.tf) мы создали динамический [hosts.yaml](https://github.com/Firewal7/netology-diplom/blob/main/ansible/inventory/hosts.yaml) файл
+При создании инфраструктуры мы создали динамический hosts.yaml файл
 
 Воспользуемся этим hosts.yaml файлом и плайбуков в kubespray:
 ```
 ansible-playbook -i /home/msi/diplom/ansible/inventory/hosts.yaml cluster.yml -b
 ```
-
-![Ссылка 7](https://github.com/Firewal7/netology-diplom/blob/main/images/7.kubespray.jpg)
-
 #### Зайдём на master и проверим:
 
 ```
