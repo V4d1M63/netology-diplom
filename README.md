@@ -426,7 +426,7 @@ applications    default         1               2024-20-08 17:05:46.933031575 +0
 
 Переходим по IP адресу любой из node порт 30003 который задали в service.yaml, и видим работу приложения. 
 
-![11](https://github.com/user-attachments/assets/7b31aa78-e38c-42c8-a0e5-86d24d627beb)
+![11](https://github.com/user-attachments/assets/8366dd01-e036-4bab-8666-ce3f695f3997)
 
 ![12](https://github.com/user-attachments/assets/91d8412f-4e8d-4e2a-a9f2-f7e9cf5f1e51)
 
