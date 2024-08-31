@@ -394,7 +394,7 @@ prometheus-operator-78dd987cb4-drw9z   2/2     Running   0          85s   10.233
 
 #### Для доступа к интерфейсу изменим сетевую политику:
 
-[manifests](https://github.com/Firewal7/netology-diplom/blob/main/manifests/grafana-service.yml)
+[manifests](https://github.com/V4d1M63/netology-diplom/blob/main/manifests/grafana-service.yml)
 
 ```
 root@master:/home/ubuntu# sudo kubectl -n monitoring apply -f manifest/grafana-service.yml
@@ -402,18 +402,16 @@ service/grafana configured
 networkpolicy.networking.k8s.io/grafana configured
 
 ```
-#### Теперь зайти в Grafana можно по любому из адресов node1, node2, master (http://158.160.18.187:30001/) Логи стандартные admin admin.
+#### Теперь зайти в Grafana можно по любому из адресов node1, node2, master 
 
-![Ссылка 14](https://github.com/Firewal7/netology-diplom/blob/main/images/14.grafana.jpg)
+![9](https://github.com/user-attachments/assets/ec4d82eb-0a60-4e05-8678-def0501b17e2)
 
 ## Далее развернём наше приложение в кластере Kubernetes.
-
-[helm-chart](https://github.com/Firewal7/netology-diplom/tree/main/helm/applications)
 
 ```
 root@master:/home/ubuntu/diplom-helm# sudo helm install applications /home/ubuntu/diplom-helm/applications  --set container.tag=1.0
 NAME: applications
-LAST DEPLOYED: Tue Apr  2 17:05:46 2024
+LAST DEPLOYED: Tue Aug  20 17:05:46 2024
 NAMESPACE: default
 STATUS: deployed
 REVISION: 1
@@ -421,18 +419,18 @@ TEST SUITE: None
 
 root@master:/home/ubuntu/diplom-helm# sudo helm list
 NAME            NAMESPACE       REVISION        UPDATED                                 STATUS          CHART           APP VERSION
-applications    default         1               2024-04-02 17:05:46.933031575 +0000 UTC deployed        applications-1  1.0     
+applications    default         1               2024-20-08 17:05:46.933031575 +0000 UTC deployed        applications-1  1.0     
 ```
 
-![Ссылка 15](https://github.com/Firewal7/netology-diplom/blob/main/images/15.deploy.jpg)
+![10](https://github.com/user-attachments/assets/e0700cab-1254-4f75-8888-bf82b37fe190)
 
 Переходим по IP адресу любой из node порт 30003 который задали в service.yaml, и видим работу приложения. 
 
-![Ссылка 16](https://github.com/Firewal7/netology-diplom/blob/main/images/16.node1.jpg)
+![11](https://github.com/user-attachments/assets/7b31aa78-e38c-42c8-a0e5-86d24d627beb)
 
-![Ссылка 17](https://github.com/Firewal7/netology-diplom/blob/main/images/17.node2.jpg)
+![12](https://github.com/user-attachments/assets/91d8412f-4e8d-4e2a-a9f2-f7e9cf5f1e51)
 
-![Ссылка 18](https://github.com/Firewal7/netology-diplom/blob/main/images/18.master.jpg)
+![13](https://github.com/user-attachments/assets/b792bc21-5246-435e-ba95-fb0f97c10d7b)
 
 
 ### Установка и настройка CI/CD
