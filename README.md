@@ -474,27 +474,23 @@ teamcity-server            : ok=13   changed=10   unreachable=0    failed=0    s
 
 #### Зайдём на адрес Teamcity:
 
-![Ссылка 21](https://github.com/Firewal7/netology-diplom/blob/main/images/21.starttc.jpg)
+![14](https://github.com/user-attachments/assets/5a6f7ea5-f9e6-45f6-ad84-7b98938e7714)
 
-#### Данные для инициализации берём с конфига [Postgresgl](https://github.com/Firewal7/netology-diplom/blob/main/ansible/playbooks/postgresql.yml), и устанавливаем предложенный драйвер JDBC.
+#### Данные для инициализации берём с конфига Postgresgl и устанавливаем предложенный драйвер JDBC.
 
-![Ссылка 22](https://github.com/Firewal7/netology-diplom/blob/main/images/22.initial.jpg)
+![15](https://github.com/user-attachments/assets/3f705b40-332f-4252-a3a2-68c01e9b4053)
 
 #### Авторизируем агента:
 
-![Ссылка 23](https://github.com/Firewal7/netology-diplom/blob/main/images/23.agent.jpg)
+![16](https://github.com/user-attachments/assets/4ebdeb49-30d4-4684-b6a1-807c6ce371ad)
 
-#### Подключил [Github](https://github.com/Firewal7/diplom-applications.git) 
+#### Подключил Dockerhub
 
-![Ссылка 24](https://github.com/Firewal7/netology-diplom/blob/main/images/24.connect.git.jpg)
-
-#### Подключил [Dockerhub](https://hub.docker.com/repository/docker/bbb8c2e28d7d/applications/general)
-
-![Ссылка 25](https://github.com/Firewal7/netology-diplom/blob/main/images/25.connect.docker.jpg)
+![17](https://github.com/user-attachments/assets/f3ec7085-7412-414d-ac26-e3d9e3b029dc)
 
 #### Подключил в Build Features Docker Support
 
-![Ссылка 26](https://github.com/Firewal7/netology-diplom/blob/main/images/26.support.jpg)
+![18](https://github.com/user-attachments/assets/0f417c0b-0798-47ba-af8e-305198f08046)
 
 ### Соберём проект: 
 
