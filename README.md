@@ -494,23 +494,21 @@ teamcity-server            : ok=13   changed=10   unreachable=0    failed=0    s
 
 ### Соберём проект: 
 
-#### [Полный код Build Steps находтся здесь](https://github.com/Firewal7/netology-diplom/tree/main/Teamcity)
+#### [Полный код Build Steps находтся здесь](https://github.com/V4d1M63/netology-diplom/tree/main/Teamcity)
 
 #### Этот скрипт предназначен для получения тега коммита и установки его в качестве параметра сборки.
 
-![Ссылка 27](https://github.com/Firewal7/netology-diplom/blob/main/images/27.commitag.jpg)
+![19](https://github.com/user-attachments/assets/aafa8b6f-1b94-41ca-9ef3-188d73a85a1a)
 
 #### Создаём образы Docker:
 
-![Ссылка 28](https://github.com/Firewal7/netology-diplom/blob/main/images/28.docker.jpg)
+![20](https://github.com/user-attachments/assets/8b325d0f-1d08-4c3e-abad-ee2cfea5ed4e)
 
 #### Отправка собранно образа в Dockerhub:
 
-![Ссылка 29](https://github.com/Firewal7/netology-diplom/blob/main/images/29.dockerhub.jpg)
+![21](https://github.com/user-attachments/assets/35e7bcda-163a-4392-bfd0-849dc35f4c2e)
 
 ### Проверяем:
-
-[Репозиторий Git](https://github.com/Firewal7/diplom-applications.git)
 
 #### Изменили версию приложения и запушили.
 
@@ -524,8 +522,8 @@ root@vm-mint:/home/msi/diplom-applications# git commit -m "Version 2.0"
 root@vm-mint:/home/msi/diplom-applications# git tag -a 2.0 -m "Version 2.0"
 
 root@vm-mint:/home/msi/diplom-applications# git push origin main
-Username for 'https://github.com': Firewal7
-Password for 'https://Firewal7@github.com': 
+Username for 'https://github.com': V4D1M63
+Password for 'https://V4D1M63@github.com': 
 Перечисление объектов: 5, готово.
 Подсчет объектов: 100% (5/5), готово.
 При сжатии изменений используется до 3 потоков
@@ -533,37 +531,37 @@ Password for 'https://Firewal7@github.com':
 Запись объектов: 100% (3/3), 351 байт | 351.00 КиБ/с, готово.
 Всего 3 (изменений 1), повторно использовано 0 (изменений 0), повторно использовано пакетов 0
 remote: Resolving deltas: 100% (1/1), completed with 1 local object.
-To https://github.com/Firewal7/diplom-applications.git
+To https://github.com/V4D1M63/diplom-applications.git
    f981c64..0c30f49  main -> main
 
 root@vm-mint:/home/msi/diplom-applications# git push origin 2.0
-Username for 'https://github.com': Firewal7
-Password for 'https://Firewal7@github.com': 
+Username for 'https://github.com': V4D1M63
+Password for 'https://V4D1M63@github.com': 
 Перечисление объектов: 1, готово.
 Подсчет объектов: 100% (1/1), готово.
 Запись объектов: 100% (1/1), 182 байта | 182.00 КиБ/с, готово.
 Всего 1 (изменений 0), повторно использовано 0 (изменений 0), повторно использовано пакетов 0
-To https://github.com/Firewal7/diplom-applications.git
+To https://github.com/V4D1M63/diplom-applications.git
  * [new tag]         2.0 -> 2.0
 ```
 
-![Ссылка 30](https://github.com/Firewal7/netology-diplom/blob/main/images/30.git.jpg)
+![22](https://github.com/user-attachments/assets/36ed94cb-bb74-41f4-98df-9770bdeaa17a)
 
-![Ссылка 31](https://github.com/Firewal7/netology-diplom/blob/main/images/31.build.jpg)
+![23](https://github.com/user-attachments/assets/17d5c517-af40-401e-912b-9e772f1044a3)
 
-![Ссылка 33](https://github.com/Firewal7/netology-diplom/blob/main/images/33.dockerhub.jpg)
+![24](https://github.com/user-attachments/assets/8c285553-1e78-4a45-b578-847e09e96c0e)
 
 ### Добавим изменение тега, создание helm и выгрузку его в Git с последующим апдейтом в кластере Kubernetes:
 
-![Ссылка 34](https://github.com/Firewal7/netology-diplom/blob/main/images/34.gethelm.jpg)
+![25](https://github.com/user-attachments/assets/9d3754e3-d5ff-4311-8dc7-207e052d5430)
 
-![Ссылка 35](https://github.com/Firewal7/netology-diplom/blob/main/images/35.Changehelm.jpg)
+![26](https://github.com/user-attachments/assets/5ea911e4-580a-4168-a72e-1d51f62de125)
 
-![Ссылка 35.1](https://github.com/Firewal7/netology-diplom/blob/main/images/35.1.Changehelm.jpg)
+![27](https://github.com/user-attachments/assets/843c4686-92ab-4517-8d55-aa78084c5757)
 
-![Ссылка 36](https://github.com/Firewal7/netology-diplom/blob/main/images/36.ssh.jpg)
+![28](https://github.com/user-attachments/assets/0e213bb4-8186-4078-9403-6f953c9628c1)
 
-![Ссылка 36.1](https://github.com/Firewal7/netology-diplom/blob/main/images/36.1.values.jpg)
+![29](https://github.com/user-attachments/assets/136c5575-e5c4-4224-9fe4-298857dd52c7)
 
 ### Запустим изменения: 
 
