@@ -575,8 +575,8 @@ root@vm-mint:/home/msi/diplom-applications# git commit -m "Version 14.0"
 root@vm-mint:/home/msi/diplom-applications# git tag -a 14.0 -m "Version 14.0"
 
 root@vm-mint:/home/msi/diplom-applications# git push origin main
-Username for 'https://github.com': Firewal7
-Password for 'https://Firewal7@github.com': 
+Username for 'https://github.com': V4D1M63
+Password for 'https://V4D1M63@github.com': 
 Перечисление объектов: 5, готово.
 Подсчет объектов: 100% (5/5), готово.
 При сжатии изменений используется до 3 потоков
@@ -584,70 +584,42 @@ Password for 'https://Firewal7@github.com':
 Запись объектов: 100% (3/3), 352 байта | 352.00 КиБ/с, готово.
 Всего 3 (изменений 1), повторно использовано 0 (изменений 0), повторно использовано пакетов 0
 remote: Resolving deltas: 100% (1/1), completed with 1 local object.
-To https://github.com/Firewal7/diplom-applications.git
+To https://github.com/V4D1M63/diplom-applications.git
    a6a294a..577a6f0  main -> main
 
 root@vm-mint:/home/msi/diplom-applications# git push origin 14.0
-Username for 'https://github.com': Firewal7
-Password for 'https://Firewal7@github.com': 
+Username for 'https://github.com': V4D1M63
+Password for 'https://V4D1M63@github.com': 
 Перечисление объектов: 1, готово.
 Подсчет объектов: 100% (1/1), готово.
 Запись объектов: 100% (1/1), 184 байта | 184.00 КиБ/с, готово.
 Всего 1 (изменений 0), повторно использовано 0 (изменений 0), повторно использовано пакетов 0
-To https://github.com/Firewal7/diplom-applications.git
+To https://github.com/V4D1M63/diplom-applications.git
  * [new tag]         14.0 -> 14.0
 ```
 
-![Ссылка 37](https://github.com/Firewal7/netology-diplom/blob/main/images/37.run.jpg)
+![30](https://github.com/user-attachments/assets/f7b135a9-8030-45f6-9395-6b29fbae1f01)
 
-![Ссылка 38](https://github.com/Firewal7/netology-diplom/blob/main/images/38.dockerhub.jpg)
+![31](https://github.com/user-attachments/assets/7ba4f668-3a31-4002-b28a-e7c63507028d)
 
-![Ссылка 39](https://github.com/Firewal7/netology-diplom/blob/main/images/39.master.jpg)
+![32](https://github.com/user-attachments/assets/3db011cf-9f78-4a3f-8ffc-a6dc451f5fb6)
 
 #### Зайдём на наши ноды:
 
-![Ссылка 40](https://github.com/Firewal7/netology-diplom/blob/main/images/40.app.jpg)
+![33](https://github.com/user-attachments/assets/22bf460f-5384-4b0a-9916-74e82f1d8329)
 
-![Ссылка 41](https://github.com/Firewal7/netology-diplom/blob/main/images/41.app.jpg)
+![34](https://github.com/user-attachments/assets/858c6ca5-5c78-4e4d-b25e-44d638ce283f)
 
 #### Пробуем обновить версию ещё раз:
 
-![Ссылка 42](https://github.com/Firewal7/netology-diplom/blob/main/images/42.run.jpg)
+![35](https://github.com/user-attachments/assets/7f27b30f-ef68-40cb-a68b-6ab21795b334)
 
-![Ссылка 43](https://github.com/Firewal7/netology-diplom/blob/main/images/43.git.jpg)
+![36](https://github.com/user-attachments/assets/09800523-f357-49d7-87e2-b3935419924c)
 
-![Ссылка 44](https://github.com/Firewal7/netology-diplom/blob/main/images/44.dockerhub.jpg)
+![37](https://github.com/user-attachments/assets/c754b56b-219e-46a2-9fd6-b88342d86135)
 
-![Ссылка 45](https://github.com/Firewal7/netology-diplom/blob/main/images/45.master.jpg)
+![38](https://github.com/user-attachments/assets/b26a8807-2bdc-4a5d-8a5b-fa4ea06c83d9)
 
-![Ссылка 46](https://github.com/Firewal7/netology-diplom/blob/main/images/46.app.jpg)
+![39](https://github.com/user-attachments/assets/7afdd204-537f-459f-8847-8be74c3e7807)
 
-![Ссылка 47](https://github.com/Firewal7/netology-diplom/blob/main/images/47.app.jpg)
-
-## Что необходимо для сдачи задания?
-
-1. Репозиторий с конфигурационными файлами Terraform и готовность продемонстрировать создание всех ресурсов с нуля.
-
-- [Репозиторий с Terraform](https://github.com/Firewal7/netology-diplom/tree/main/terraform)
-
-2. Пример pull request с комментариями созданными atlantis'ом или снимки экрана из Terraform Cloud или вашего CI-CD-terraform pipeline.
-
-3. Репозиторий с конфигурацией ansible, если был выбран способ создания Kubernetes кластера при помощи ansible.
-
-- [Репозиторий с ansible](https://github.com/Firewal7/netology-diplom/tree/main/ansible)
- 
-4. Репозиторий с Dockerfile тестового приложения и ссылка на собранный docker image.
-
-- [Репозиторий с applications](https://github.com/Firewal7/diplom-applications)
-- [Репозиторий Dockerhub](https://hub.docker.com/repository/docker/bbb8c2e28d7d/applications/general)
-
-5. Репозиторий с конфигурацией Kubernetes кластера.
-
-- [Репозиторий github](https://github.com/Firewal7/netology-diplom/blob/main/ansible/inventory/hosts.yaml)
-
-6. Ссылка на тестовое приложение и веб интерфейс Grafana с данными доступа.
-
-- [Applications](http://158.160.133.254:30003)
-- [Grafana](http://158.160.133.254:30001) Лог: admin, Пасс: admin
-
-7. Все репозитории рекомендуется хранить на одном ресурсе (github, gitlab)
+![40](https://github.com/user-attachments/assets/86f60770-ca43-41c2-b230-a209abf74238)
